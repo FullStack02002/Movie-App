@@ -89,7 +89,7 @@ const Layout = () => {
                     title: 'Profile',
                     headerShown: false,
                     tabBarIcon: ({ focused }) => (
-                        <TabIcon focused={focused} icon={icons.save} title="Profile" />
+                        <TabIcon focused={focused} icon={icons.person} title="Profile" />
                     )
                 }}
             />

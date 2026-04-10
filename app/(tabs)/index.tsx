@@ -15,7 +15,7 @@ export default function Index() {
         <Image source={icons.logo} className="w-12 h-10 mt-20 mb-5 mx-auto " />
 
         <View className="flex-1">
-          <SearchBar onPress={()=>router.push("/search")} placeholder="search for a movie"/>
+          <SearchBar onPress={()=>router.push("/search")} placeholder="Search through 300+ movies online"/>
         </View>
 
       </ScrollView>
